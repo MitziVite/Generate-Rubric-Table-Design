@@ -1,0 +1,145 @@
+/* Set background color for the body and html elements */
+body, html {
+  background-color: #f0f0f0;
+}
+
+/* Styling for selected criteria */
+#selectedCriteria {
+  border: 2px solid grey;
+  padding: 10px;
+}
+
+/* Set upper-roman numbering for selected criteria */
+#selectedCriteria ol {
+  list-style-type: upper-roman;
+}
+
+/* Remove bullet points for nested lists in selected criteria */
+#selectedCriteria ol ul {
+  list-style-type: none;
+}
+
+/* Styling for custom table */
+table.customTable {
+  width: 92%;
+  margin: 0 auto; 
+  background-color: #FFFFFF;
+  border-radius: 13px; 
+  border-spacing: 0;
+}
+
+/* Styling for table cells and headers */
+table.customTable .td, table.customTable th {
+  border-color: #000000;
+}
+
+/* Styling for container */
+.container {
+  display: flex; 
+  flex-direction: column; 
+}
+
+/* Styling for header box */
+.headerbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 26%;
+  background-color: #006EB6;
+  color: white; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 1px 12px 15px -13px rgba(0,0,0,0.8);
+}
+
+/* Styling for main header */
+.mainHeader {
+  font-size: 37px;
+  padding: 0.5%;
+}
+
+/* Styling for input container */
+.input-container {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styling for URL input */
+.URLinput {
+  width: 100%; 
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Styling for URL button */
+.URLbutton {
+  background-color: black; 
+  color: white;
+  padding: 5px 27px;
+  border-radius: 10px; 
+  margin-top: 10px;
+  font-size: 22px;
+  align-self: flex-end; 
+  margin-right: -10px;
+}
+
+/* Hover effect for URL button */
+.URLbutton:hover {
+  background-color: #1b1b1b;
+}
+
+/* Styling for content table */
+.contentTable {
+  margin-top: 250px;
+  text-align: center;
+}
+
+/* Styling for subtitle header */
+.subtitleHeader{
+  font-size: 30px;
+  padding: 10px 30px;
+  text-align: left;
+}
+
+/* Styling for custom table */
+.customTable {
+  box-shadow: 1px 12px 15px -13px rgba(0,0,0,0.8);
+  border-collapse: separate;
+}
+
+/* Styling for table header */
+.customTable th{
+ background-color: #000000; 
+ color: white;
+ 
+}
+.customTable th:first-child {
+  border-top-left-radius: 13px;
+}
+
+.customTable th:last-child {
+  border-top-right-radius: 13px;
+}
+
+/* Styling for table cells and headers */
+.customTable th, .customTable td{
+  padding: 15px; 
+  border-right: 1px solid #b5b5b5; 
+  position: relative;
+}
+
+/* Styling for odd rows in the table */
+.customTable tr:nth-child(odd) {
+  background-color: #dadada;
+}
+
+.customTable  td:last-child {
+  border-right: none;
+}
+
