@@ -2,8 +2,64 @@
 <html>
   <head>
     <base target="_top">
+    <style>
+        /* Reset some default styles */
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+    
+        body {
+          height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #e9ecef;
+          color: #333;
+          text-align: center;
+          background-color: #e4b5cb;
+            background-image: linear-gradient(315deg, #8bc8f0 0%, #006EB6 74%); 
+        }
+    
+        .error-container {
+          max-width: 80%;
+          width: 100%;
+          padding: 180px;
+          background-color: rgba(255, 255, 255, 0.9);
+          border-radius: 10px;
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1)
+        }
+    
+    
+        .error-code {
+          font-size: 10em;
+          color: #006EB6;
+          font-weight: bold;
+          margin-bottom: 100px;
+        }
+    
+        h1 {
+          font-size: 3.5em;
+          color: #cc5939;
+          margin-bottom: 10px;
+          text-transform: uppercase;
+        }
+        .message {
+          font-size: 1.5em;
+          margin-bottom: 20px;
+          color: #585757;
+        }
+    
+      </style>
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>YOU HAVE NO ACCESS!</h1>
+    <div class="error-container">
+      <div class="error-code">403</div>
+      <h1>We are Sorry...</h1>
+      <p class="message">The page you are trying to access has restricted access.</p>
+      <!-- <button onclick="history.back()" class="go-back-btn">Go Back</button> -->
+    </div>
   </body>
 </html>
